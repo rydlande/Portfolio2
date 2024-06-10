@@ -1,5 +1,6 @@
 # Portfolio 2
-![image][Screenshot 2024-06-10 at 23 56 09](https://github.com/rydlande/Portfolio2/assets/112164731/198da838-6d46-4138-a693-32e1f3a8b375)
+![Screenshot 2024-06-10 at 23 56 09](https://github.com/rydlande/Portfolio2/assets/112164731/bd36e5a1-e4cf-40cb-a16a-b8861767ea75)
+
 
 
 
