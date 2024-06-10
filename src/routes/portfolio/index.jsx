@@ -18,11 +18,11 @@ export function Portfolio() {
 
     return (
         <div className="w-full flex justify-center items-center pt-12 pb-10">
-            <div className="fixed top-24 left-4">
-                <Link to="/">Back</Link>
+            <div className="fixed top-1/2 left-4 ">
+                <Link to="/" className="hidden xs:flex">Back</Link>
             </div>
 
-            <div className="flex flex-col justify-evenly w-full max-w-md md:max-w-3xl lg:max-w-4xl">
+            <div className="flex flex-col justify-evenly w-full max-w-sm md:max-w-xl lg:max-w-2xl xl:max-w-3xl">
                 <div ref={projectExamRef}>
                     <ProjectExam2 />
                 </div>
@@ -36,10 +36,18 @@ export function Portfolio() {
                 </div>
             </div>
 
-            <div className="fixed top-24 right-4 flex flex-col items-end">
-                <button onClick={() => scrollToProject(projectExamRef)}>Project Exam 2</button>
-                <button onClick={() => scrollToProject(jsFrameworksRef)}>JS Frameworks</button>
-                <button onClick={() => scrollToProject(semesterProjectRef)}>Semester Project 2</button>
+            <div className="fixed top-1/2 right-4 flex flex-col items-end">
+                <div className="hidden lg:flex flex-col">
+                    <button onClick={() => scrollToProject(projectExamRef)}>Project Exam 2</button>
+                    <button onClick={() => scrollToProject(jsFrameworksRef)}>JS Frameworks</button>
+                    <button onClick={() => scrollToProject(semesterProjectRef)}>Semester Project 2</button>
+                </div>
+
+                <div className="hidden xs:flex lg:hidden flex-col">
+                    <button onClick={() => scrollToProject(projectExamRef)}>PE2</button>
+                    <button onClick={() => scrollToProject(jsFrameworksRef)}>JSF</button>
+                    <button onClick={() => scrollToProject(semesterProjectRef)}>SP2</button>
+                </div>
             </div>
         </div>
     )
