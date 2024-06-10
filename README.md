@@ -1,8 +1,54 @@
-# React + Vite
+# Portfolio 2
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![image](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
 
-Currently, two official plugins are available:
+A simple overview of the use/purpose of the project.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Description
+
+This project entails documenting three prior submissions from the first year and creating a portfolio webpage that lists these projects.
+
+- Document three previous projects: Semester Project 2, JavaScript Frameworks CA, Project Exam 2.
+- Create a professional GitHub profile README.
+- Develop a responsive portfolio webpage listing these three projects as cards with titles, descriptions, screenshots, GitHub repo links, and live site links.
+
+## Built With
+
+
+- [Vite.js](https://vitejs.dev/guide/)
+- [Tailwind](https://tailwindcss.com/docs/installation).o
+
+## Getting Started
+
+### Installing
+
+This is where you list how to get the project started. It typically just includes telling a person to clone the repo and then to install the dependencies e.g.
+
+1. Clone the repo:
+
+```bash
+git clone git@github.com:rydlande/Portfolio2.git
+```
+
+2. Install the dependencies:
+
+```
+npm install
+```
+
+
+## Contributing
+
+Feel free to contribute by making a pull request. All contributions will be reviewed.
+
+
+## Contact
+
+[My GitHub page](https://github.com/rydlande)
+
+[My LinkedIn page](https://www.linkedin.com/in/eirin-rydland-944b49210/)
+
+
+## Acknowledgments
+
+Special thanks to the Noroff School, my teacher and fellow students for their guidance and support.

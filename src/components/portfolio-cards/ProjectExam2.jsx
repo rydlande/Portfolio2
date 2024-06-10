@@ -11,7 +11,7 @@ const images = [Image1, Image2, Image3, Image4, Image5, Image6];
 export function ProjectExam2() {
 
     return (
-        <div className="grid grid-cols-2 gap-8 mb-16">
+        <div className="grid grid-cols-2 gap-8 mb-16 text-beige-light">
             <div className="col-span-2 lg:col-span-1 font-sans">
                 <h1 className="text-3xl font-bold mb-2">Project Exam 2</h1>
                 <h2 className='text-xl font-medium mb-8'>Holidaze Accommodation Booking Site</h2>
