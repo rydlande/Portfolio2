@@ -1,5 +1,6 @@
 # Portfolio 2
-![image]([https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png](https://drive.google.com/file/d/1NNOe8979ovGltF6_P0HfU-mff91UlWYy/view?usp=sharing))
+![image][Screenshot 2024-06-10 at 23 56 09](https://github.com/rydlande/Portfolio2/assets/112164731/198da838-6d46-4138-a693-32e1f3a8b375)
+
 
 
 A simple overview of the use/purpose of the project.
