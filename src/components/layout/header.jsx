@@ -18,13 +18,6 @@ export function Header() {
                 >
                     Portfolio 2
                 </Link>
-                {/* <Link to="/work">Other work</Link> */}
-                <Link
-                    to="/about"
-                    className={`cursor-pointer ${location.pathname === '/about' ? 'font-bold' : 'font-normal'}`}
-                >
-                    About
-                </Link>
             </nav>
         </header>
     )
