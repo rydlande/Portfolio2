@@ -6,20 +6,20 @@ export default {
     "./index.html",
   ],
   theme: {
-    color: {
+    colors: {
       transparent: 'transparent',
       current: 'currentColor',
       black: '#00000',
-      green: {
-        light: '#81A2A6',
-        DEFAULT: '#037277',
-        dark: '#144244',
-      },
-      pink: {
-        light: '#E6D9D5',
-        DEFAULT: '#D6BFBF',
-      },
       white: '#FAFAFA',
+      'beige': {
+        light: '#FFE8CB',
+        dark: '#CC8A5B'
+      },
+      blue: {
+        light: '#8CB9FF',
+        DEFAULT: '#6B5BCC',
+        dark: '#827E99'
+      },
     },
     fontFamily: {
       sans: ['montserrat', 'sans-serif'], //ExtraLight, Regular, Italic, SemiBold, Bold

@@ -1,7 +1,12 @@
-export function Layout() {
+import { Header } from '../components/layout/header'
+import { Footer } from '../components/layout/footer'
+
+export function Layout({ children }) {
   return (
-    <div>
-      <h1>layout</h1>
-    </div>
+    <>
+      <Header />
+      <main className='grow'>{children}</main>
+      <Footer />
+    </>
   );
 }
