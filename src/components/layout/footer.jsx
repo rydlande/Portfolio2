@@ -10,11 +10,6 @@ export function Footer() {
             name: 'LinkedIn',
             url: 'https://www.linkedin.com/in/eirin-rydland-944b49210/',
         },
-        /* {
-            id: 2,
-            name: 'Instagram',
-            url: 'https://www.instagram.com/rydlande/',
-        }, */
         {
             id: 3,
             name: 'GitHub',
@@ -28,19 +23,19 @@ export function Footer() {
     ];
 
     return (
-        <footer className='w-full flex justify-center items-center pt-16 pb-12'>
+        <footer className='w-full flex justify-center items-center pt-16 pb-12 bg-blue text-beige-light'>
             <div className="flex justify-between w-full items-end max-w-md md:max-w-3xl lg:max-w-4xl">
                 <div>
                     <ul>
                         {socialLinks.map((link) => (
-                            <li key={link.id}>
+                            <li key={link.id} className="hover:font-bold cursor-pointer">
                                 <a onClick={() => openInNewTab(link.url)}>{link.name}</a>
                             </li>
                         ))}
                     </ul>
                 </div>
-                <div className="">
-                    <p>Email: eirinrydland@outlook.com</p>
+                <div>
+                    <p>Email: <span className="underline">eirinrydland@outlook.com</span></p>
                 </div>
             </div>
         </footer>
