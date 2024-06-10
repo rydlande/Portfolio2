@@ -1,5 +1,8 @@
 import { useRef } from "react";
 import { Link } from "react-router-dom";
+import { ProjectExam2 } from "../../components/portfolio-cards/ProjectExam2";
+import { JSFrameworks } from "../../components/portfolio-cards/JSFrameworks";
+import { SemesterProject2 } from "../../components/portfolio-cards/SemesterProject2";
 
 export function Portfolio() {
     const projectExamRef = useRef(null);
@@ -14,22 +17,22 @@ export function Portfolio() {
     };
 
     return (
-        <div>
+        <div className="w-full flex justify-center items-center pt-12 pb-10">
             <div className="fixed top-24 left-4">
                 <Link to="/">Back</Link>
             </div>
 
-            <div>
-                <div ref={projectExamRef} className=" h-96">
-                    <h1>Project Exam 2</h1>
+            <div className="flex flex-col justify-evenly w-full max-w-md md:max-w-3xl lg:max-w-4xl">
+                <div ref={projectExamRef}>
+                    <ProjectExam2 />
                 </div>
 
-                <div ref={jsFrameworksRef} className=" h-96">
-                    <h1>JS Frameworks</h1>
+                <div ref={jsFrameworksRef}>
+                    <JSFrameworks />
                 </div>
 
-                <div ref={semesterProjectRef} className=" h-96">
-                    <h1>Semester Project 2</h1>
+                <div ref={semesterProjectRef}>
+                    <SemesterProject2 />
                 </div>
             </div>
 
